@@ -7,52 +7,53 @@ public class SelectOnInput : MonoBehaviour {
 
 	public GameObject PlayerObject;
 
-	private TwineTextPlayer TwinePlayer;
+    public float MaxSelectSpeed = 0.5f;
+    public int OnValue = 0;
 
-	// Use this for initialization
-	SerialPort sp ;//= new SerialPort("COM13",9600);
+    private TwineTextPlayer TwinePlayer;
+    SerialPort sp;
+    int previousVal = 1;
+    float nextTime = 0;
 
-	void Start () {
+    void Start () {
 
 		TwinePlayer = PlayerObject.GetComponent<TwineTextPlayer> ();
 		print (TwinePlayer);
-//		var ports = SerialPort.GetPortNames ();
-//		foreach (var s in ports)
-//			Debug.Log (s);
-//		
-//		Debug.Log ("Hi Guys");
-//		int i = 0;
-//		for (; i < 1; i++)
-//		{        
-//			try {
-//				//print ("HELLO");
-//				print ("/dev/ttyUS" + i.ToString("X"));
-//				sp = new SerialPort("/dev/tty.Bluetooth-Incoming-Port" ,9600);
-//				sp.Open ();
-//				sp.ReadTimeout = 1;
-//				print ("Made it");
-//				break;
-//
-//			} catch (System.Exception e)  {
-//				print (e);
-//			}
-//		}
-	}
+
+        try
+        {
+            sp = new SerialPort("COM5", 9600);
+            sp.Open();
+            sp.ReadTimeout = 100;
+        }
+        catch (System.Exception e)
+        {
+            print(e);
+        }
+    }
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.DownArrow)) {
-			TwinePlayer.DoChangeSelected ();
-		}
-		if (Input.GetKeyDown (KeyCode.UpArrow)) {
-			TwinePlayer.DoSelect ();
-		}
-			
-//		try {
-//			print (sp.ReadLine());
-//		} catch (System.Exception e)  {
-//			print ("IOException source: {0}");  
-//		}
+
+        var newTime = Time.time;
+        var newVal = int.Parse(sp.ReadLine());
+        if (newVal != previousVal && newTime > nextTime)
+        {
+            previousVal = newVal;
+            nextTime = newTime + MaxSelectSpeed;
+            if (newVal == OnValue)
+            {
+                //print("Selection Changed!");
+                TwinePlayer.DoChangeSelected();
+            }
+        }
+
+  //      if (Input.GetKeyDown (KeyCode.DownArrow)) {
+		//	TwinePlayer.DoChangeSelected ();
+		//}
+		//if (Input.GetKeyDown (KeyCode.UpArrow)) {
+		//	TwinePlayer.DoSelect ();
+		//}
 	}
 
 }

@@ -1,10 +1,5 @@
 {
-    "console": [
-        {
-            "type": "message",
-            "value": "jQuery.Deferred exception: undefined is not a constructor (evaluating 'Number.isNaN(t)') includes@file:///Users/ahoydave/EDB/Assets/EDB.html:137:3712\nt@file:///Users/ahoydave/EDB/Assets/EDB.html:138:2438\nfile:///Users/ahoydave/EDB/Assets/EDB.html:138:5631\nsome@[native code]\napply@[native code]\ncall@[native code]\ncall@[native code]\nCall@file:///Users/ahoydave/EDB/Assets/EDB.html:134:4450\nfile:///Users/ahoydave/EDB/Assets/EDB.html:134:18801\nr@file:///Users/ahoydave/EDB/Assets/EDB.html:138:5552\na@file:///Users/ahoydave/EDB/Assets/EDB.html:138:6700\ne@file:///Users/ahoydave/EDB/Assets/EDB.html:138:21294\ne@file:///Users/ahoydave/EDB/Assets/EDB.html:138:20791\nfile:///Users/ahoydave/EDB/Assets/EDB.html:138:18523\nrender@file:///Users/ahoydave/EDB/Assets/EDB.html:138:52549\nc@file:///Users/ahoydave/EDB/Assets/EDB.html:140:2378\nrenderInto@file:///Users/ahoydave/EDB/Assets/EDB.html:140:2324\nu@file:///Users/ahoydave/EDB/Assets/EDB.html:140:7074\ngoToPassage@file:///Users/ahoydave/EDB/Assets/EDB.html:140:7464\nfile:///Users/ahoydave/EDB/Assets/EDB.html:141:13408\nf@file:///Users/ahoydave/EDB/Assets/EDB.html:124:24025\nfile:///Users/ahoydave/EDB/Assets/EDB.html:124:36747 undefined"
-        }
-    ],
+    "console": [],
     "result": {
         "passages": [
             {
