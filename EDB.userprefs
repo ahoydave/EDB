@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cradle/TwineTextPlayer/Core/TwineTextPlayer.cs">
+    <Files>
+      <File FileName="Assets/EDB.cs" Line="17" Column="1" />
+      <File FileName="Assets/DogListener.cs" Line="18" Column="12" />
+      <File FileName="Assets/Cradle/TwineTextPlayer/Core/TwineTextPlayer.cs" Line="162" Column="7" />
+      <File FileName="Assets/SelectOnInput.cs" Line="9" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,1957 @@
+{
+    "console": [
+        {
+            "type": "message",
+            "value": "jQuery.Deferred exception: undefined is not a constructor (evaluating 'Number.isNaN(t)') includes@file:///Users/ahoydave/EDB/Assets/EDB.html:137:3712\nt@file:///Users/ahoydave/EDB/Assets/EDB.html:138:2438\nfile:///Users/ahoydave/EDB/Assets/EDB.html:138:5631\nsome@[native code]\napply@[native code]\ncall@[native code]\ncall@[native code]\nCall@file:///Users/ahoydave/EDB/Assets/EDB.html:134:4450\nfile:///Users/ahoydave/EDB/Assets/EDB.html:134:18801\nr@file:///Users/ahoydave/EDB/Assets/EDB.html:138:5552\na@file:///Users/ahoydave/EDB/Assets/EDB.html:138:6700\ne@file:///Users/ahoydave/EDB/Assets/EDB.html:138:21294\ne@file:///Users/ahoydave/EDB/Assets/EDB.html:138:20791\nfile:///Users/ahoydave/EDB/Assets/EDB.html:138:18523\nrender@file:///Users/ahoydave/EDB/Assets/EDB.html:138:52549\nc@file:///Users/ahoydave/EDB/Assets/EDB.html:140:2378\nrenderInto@file:///Users/ahoydave/EDB/Assets/EDB.html:140:2324\nu@file:///Users/ahoydave/EDB/Assets/EDB.html:140:7074\ngoToPassage@file:///Users/ahoydave/EDB/Assets/EDB.html:140:7464\nfile:///Users/ahoydave/EDB/Assets/EDB.html:141:13408\nf@file:///Users/ahoydave/EDB/Assets/EDB.html:124:24025\nfile:///Users/ahoydave/EDB/Assets/EDB.html:124:36747 undefined"
+        }
+    ],
+    "result": {
+        "passages": [
+            {
+                "Name": "Pet store",
+                "Pid": "1",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "One runs up and puts its nose on the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"glass\",\"glass\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"glass\",\"glass\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "glass",
+                                "text": "\"glass\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "glass",
+                                "text": "\"glass\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "One sits shyly at the back of the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"pen\",\"pen\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"pen\",\"pen\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "pen",
+                                "text": "\"pen\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "pen",
+                                "text": "\"pen\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "glass",
+                "Pid": "2",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Your puppy is so ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"playful\",\"playful\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"playful\",\"playful\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "playful",
+                                "text": "\"playful\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "playful",
+                                "text": "\"playful\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "He is so ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"greedy\",\"greedy\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"greedy\",\"greedy\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "greedy",
+                                "text": "\"greedy\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "greedy",
+                                "text": "\"greedy\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "!",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "morning",
+                "Pid": "3",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He's not ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"eating\",\"eating\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"eating\",\"eating\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "eating",
+                                "text": "\"eating\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "eating",
+                                "text": "\"eating\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "eating",
+                "Pid": "4",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He's so small when you hold him. You can feel his little heart ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"beating\",\"beating\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"beating\",\"beating\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "beating",
+                                "text": "\"beating\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "beating",
+                                "text": "\"beating\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "beating",
+                "Pid": "5",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Until you can't anymore. ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "The puppy you chose was sick. ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You go back to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Pet store\",\"Pet store\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Pet store\",\"Pet store\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Pet store",
+                                "text": "\"Pet store\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Pet store",
+                                "text": "\"Pet store\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "playful",
+                "Pid": "6",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He's whining at the door. Do you: ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Let him ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"out\",\"out\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"out\",\"out\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "out",
+                                "text": "\"out\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "out",
+                                "text": "\"out\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Pick him up and ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"cuddle him\",\"cuddle him\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"cuddle him\",\"cuddle him\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "cuddle him",
+                                "text": "\"cuddle him\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "cuddle him",
+                                "text": "\"cuddle him\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "greedy",
+                "Pid": "7",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He cries when you don't feed him.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you:",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Keep his bowl ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"full\",\"full\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"full\",\"full\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "full",
+                                "text": "\"full\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "full",
+                                "text": "\"full\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Only feed him twice a ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"day\",\"day\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"day\",\"day\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "day",
+                                "text": "\"day\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "day",
+                                "text": "\"day\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "out",
+                "Pid": "8",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He frequently chases the neighbours ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"cat\",\"cat\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"cat\",\"cat\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "cat",
+                                "text": "\"cat\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "cat",
+                                "text": "\"cat\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "cuddle him",
+                "Pid": "9",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Responsible pet owners neuter their dogs.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you take him to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"vet\",\"vet\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"vet\",\"vet\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "vet",
+                                "text": "\"vet\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "vet",
+                                "text": "\"vet\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " for the snip?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you leave him intact? You might want ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"puppies\",\"puppies\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"puppies\",\"puppies\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "puppies",
+                                "text": "\"puppies\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "puppies",
+                                "text": "\"puppies\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " later!",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "full",
+                "Pid": "10",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He eats really fast. ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "When you hear the sounds from the kitchen, you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"laugh\",\"laugh\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"laugh\",\"laugh\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "laugh",
+                                "text": "\"laugh\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "laugh",
+                                "text": "\"laugh\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " at how greedy he is.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    }
+                ]
+            },
+            {
+                "Name": "day",
+                "Pid": "11",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He's always ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"hungry\",\"hungry\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"hungry\",\"hungry\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "hungry",
+                                "text": "\"hungry\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "hungry",
+                                "text": "\"hungry\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "laugh",
+                "Pid": "12",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "The soudnds stop.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Everything is too ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"quiet\",\"quiet\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"quiet\",\"quiet\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "quiet",
+                                "text": "\"quiet\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "quiet",
+                                "text": "\"quiet\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ". ",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "quiet",
+                "Pid": "13",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You go through to the kitchen.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "His little body is so small...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You go back to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Pet store\",\"Pet store\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Pet store\",\"Pet store\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Pet store",
+                                "text": "\"Pet store\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Pet store",
+                                "text": "\"Pet store\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "hungry",
+                "Pid": "14",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You fill bowl.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Later\",\"Later\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Later\",\"Later\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Later",
+                                "text": "\"Later\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Later",
+                                "text": "\"Later\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ", his bowl is still full. ",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Later",
+                "Pid": "15",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"call\",\"call\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"call\",\"call\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "call",
+                                "text": "\"call\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "call",
+                                "text": "\"call\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " him but he doesn't come.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "call",
+                "Pid": "16",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "A cupboard is open in the kitchen. The rat poison pellets are spilled across the floor.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "His little body is so small...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You go back to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Pet store\",\"Pet store\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Pet store\",\"Pet store\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Pet store",
+                                "text": "\"Pet store\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Pet store",
+                                "text": "\"Pet store\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "pen",
+                "Pid": "17",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He licks your nose. ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "His name is:",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"lucky\",\"lucky\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"lucky\",\"lucky\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "lucky",
+                                "text": "\"lucky\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "lucky",
+                                "text": "\"lucky\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " because he's going to change your life",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"fido\",\"fido\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"fido\",\"fido\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "fido",
+                                "text": "\"fido\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "fido",
+                                "text": "\"fido\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " because he is loyal and brave",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"buddy\",\"buddy\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"buddy\",\"buddy\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "buddy",
+                                "text": "\"buddy\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "buddy",
+                                "text": "\"buddy\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " because he's such a good boy",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "lucky",
+                "Pid": "18",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "The next ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"morning\",\"morning\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"morning\",\"morning\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "morning",
+                                "text": "\"morning\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "morning",
+                                "text": "\"morning\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " he's right there next to you where you need him to be. ",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "fido",
+                "Pid": "19",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He has such cute puppy ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"morning\",\"morning\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"morning\",\"morning\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "morning",
+                                "text": "\"morning\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "morning",
+                                "text": "\"morning\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " breath. ",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "buddy",
+                "Pid": "20",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He licks your face in the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"morning\",\"morning\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"morning\",\"morning\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "morning",
+                                "text": "\"morning\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "morning",
+                                "text": "\"morning\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "cat",
+                "Pid": "21",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You leave the gate open by mistake.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "As far as you can tell, he ran out trying to catch the cat.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Does he ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"catch\",\"catch\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"catch\",\"catch\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "catch",
+                                "text": "\"catch\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "catch",
+                                "text": "\"catch\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " the cat?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Does the cat ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"escape\",\"escape\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"escape\",\"escape\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "escape",
+                                "text": "\"escape\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "escape",
+                                "text": "\"escape\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "catch",
+                "Pid": "22",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You come home to a note on your door from your neighbour.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"I DID TO YOUR DOG WHAT IT DID TO MY CAT\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You go back to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Pet store\",\"Pet store\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Pet store\",\"Pet store\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Pet store",
+                                "text": "\"Pet store\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Pet store",
+                                "text": "\"Pet store\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "escape",
+                "Pid": "23",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You come home to a note on your door.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\"IM SO SORRY I TRIED TO STOP BUT HE JUST RAN OUT IN FRONT OF MY CAR\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "There's a bloody plastic bag at your feet. ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You go back to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Pet store\",\"Pet store\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Pet store\",\"Pet store\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Pet store",
+                                "text": "\"Pet store\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Pet store",
+                                "text": "\"Pet store\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "vet",
+                "Pid": "24",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Your phone ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"rings\",\"rings\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"rings\",\"rings\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "rings",
+                                "text": "\"rings\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "rings",
+                                "text": "\"rings\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "puppies",
+                "Pid": "25",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He's getting ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"older\",\"older\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"older\",\"older\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "older",
+                                "text": "\"older\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "older",
+                                "text": "\"older\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "!",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "rings",
+                "Pid": "26",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "\"It was a routine procedure. I don't know what went wrong.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I'm so sorry.\"",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Go to the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"Pet store\",\"Pet store\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Pet store\",\"Pet store\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Pet store",
+                                "text": "\"Pet store\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Pet store",
+                                "text": "\"Pet store\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "older",
+                "Pid": "27",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He's so ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"boisterous\",\"boisterous\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"boisterous\",\"boisterous\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "boisterous",
+                                "text": "\"boisterous\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "boisterous",
+                                "text": "\"boisterous\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " ",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "boisterous",
+                "Pid": "28",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "He loves playing with his ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"rope\",\"rope\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"rope\",\"rope\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "rope",
+                                "text": "\"rope\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "rope",
+                                "text": "\"rope\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " toy.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You stroke his little ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"face\",\"face\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"face\",\"face\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "face",
+                                "text": "\"face\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "face",
+                                "text": "\"face\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " every day.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "rope",
+                "Pid": "29",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Double-click this passage to edit it.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "face",
+                "Pid": "30",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Double-click this passage to edit it.",
+                        "type": "text"
+                    }
+                ]
+            }
+        ],
+        "startPid": "1"
+    }
+}
